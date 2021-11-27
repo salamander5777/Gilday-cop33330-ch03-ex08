@@ -11,10 +11,11 @@ int main() {
   std::cout << "Input an integer value: ";
   std::cin >> i;
 
+  //Attempts to see if the integer is a multiple of 2, if not then it must be an odd number.
   if ( i % 2 == 0){
     std::cout << "The value " << i << " is an even number.";
   }
   else{
     std::cout << "The value " << i << " is an odd number.";
   }
-} 
+}
