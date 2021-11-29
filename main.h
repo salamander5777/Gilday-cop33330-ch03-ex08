@@ -6,12 +6,9 @@
 #include <iostream>
 
 //Chapter 3, Exercise #8 - (Program that takes in an integer value as inputand outputs whether the integer is even or odd.)
-int main() {
-  int i;
-  std::cout << "Input an integer value: ";
-  std::cin >> i;
 
-  //Attempts to see if the integer is a multiple of 2, if not then it must be an odd number.
+//This method attempts to see if the integer is a multiple of 2, if not then it must be an odd number.
+void even_checker(int i){
   if ( i % 2 == 0){
     std::cout << "The value " << i << " is an even number.";
   }
