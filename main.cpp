@@ -4,3 +4,11 @@
  */
 
 #include "main.h"
+
+int main() {
+  int i;
+  std::cout << "Input an integer value: ";
+  std::cin >> i;
+
+  even_checker(i);
+}
